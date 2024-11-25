@@ -1,5 +1,3 @@
-# Project Lab 1: Linear Regression
-
 This project uses linear regression with one variable to predict **restaurant franchise profits** based on city population size.
 
 ## Steps
