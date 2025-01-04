@@ -1,15 +1,34 @@
-This project uses linear regression with one variable to predict **restaurant franchise profits** based on city population size.
+# Machine Learning Projects
 
-## Steps
-1. Load the dataset: Population vs. Profit.
-2. Visualize the data with a scatter plot.
-3. Implement linear regression:
-   - Hypothesis: \( h(x) = w \cdot x + b \).
-   - Compute cost function \( J(w, b) \).
-   - Optimize using gradient descent.
-4. Predict profits for new cities.
-5. Plot the regression line over the data.
+This repository contains three projects focusing on different machine learning algorithms and their applications.
 
-## Requirements
-- Python  
-- Libraries: `numpy`, `matplotlib`
+## Projects
+
+### 1. Linear Regression
+Implemented **Linear Regression** to predict profits for a restaurant franchise in new cities.
+
+**Libraries Used:**
+- `numpy`
+- `matplotlib`
+
+### 2. Logistic Regression
+Built a **Logistic Regression** model to predict university admission based on exam scores.
+
+**Libraries Used:**
+- `numpy`
+- `matplotlib`
+
+### 3. Neural Networks for Handwritten Digit Recognition (Binary)
+Used a **Neural Network** to recognize handwritten digits, specifically "0" and "1".
+
+**Libraries Used:**
+- `numpy`
+- `matplotlib`
+- `tensorflow` & `keras`
+
+## Installation
+
+To install the required packages, run:
+
+```bash
+pip install numpy matplotlib tensorflow
